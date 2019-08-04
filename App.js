@@ -10,7 +10,6 @@ import {
 import Constants from "expo-constants";
 
 import Button from "./components/Button";
-import BattleArena from "./components/Result";
 import Result from "./components/Result";
 
 

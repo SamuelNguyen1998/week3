@@ -30,6 +30,8 @@ const styles = StyleSheet.create({
         aspectRatio: 1
     },
     choiceImage: {
+        width: null,
+        height: null,
         flex: 1
     },
     choiceCardTitle: {
