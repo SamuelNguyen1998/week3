@@ -3,7 +3,6 @@ import {
   StyleSheet,
   Text,
   View,
-  Dimensions,
   TouchableOpacity,
   Slider
 } from "react-native";
@@ -121,7 +120,7 @@ export default class GameScreen extends Component {
         <View style={styles.battleContainer}>
           <Result
             p1Name="player 1"
-            p2Name="player 2"
+            p2Name="Computer"
             p1Choice={this.state.userChoice}
             p2Choice={this.state.computerChoice}
           />
